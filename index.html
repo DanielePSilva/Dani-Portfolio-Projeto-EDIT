@@ -11,42 +11,57 @@
   </head>
   <body>
     <header>
-      <section class="introduction">
+      <section class="boxintro">
         <div class="flex-container">
           <div class="flex-item">
             <h1>
               Hello, my name is Daniele Silva I’m a Full Stack Web Developer
             </h1>
-            <a href="#contact" class="buttons">Find out more</a>
+            <div>
+              <a href="#contact" class="buttonfind">Find out more</a>
+            </div>
           </div>
         </div>
       </section>
     </header>
     <main>
-      <section id="About" classe="About">
-        <h2>About me</h2>
-        <div>
-          <img
-            src="./img/develop.png"
-            alt="desenvolvedora no computador"
-            width="500"
-          />
+      <div class="box-about">
+        <section id="About" classe="About">
+          <div class="flex-container-about">
+            <h2 class="about-h2">About me</h2>
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            veniam, dolore ratione iure illum repellendus quam aliquam molestiae
-            nam amet itaque quas consequuntur explicabo vel perferendis quo.
-            Blanditiis, labore ducimus!
-          </p>
-          <a href=""> View Resume</a
-          ><!-- Adcionar link interno -->
-
-          <blockquote>“Don't comment bad code - rewrite it.”</blockquote>
-          <cite>Brian Kernighan</cite>
-        </div>
-      </section>
+            <div class="flex-align-about">
+              <div>
+                <img
+                  class="img-about"
+                  class="image-about"
+                  src="./img/develop.png"
+                  alt="desenvolvedora no computador"
+                  width="500"
+                />
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto veniam, dolore ratione iure illum repellendus quam
+                aliquam molestiae nam amet itaque quas consequuntur explicabo
+                vel perferendis quo. Blanditiis, labore ducimus!
+              </p>
+              <a href="" class="button-view"> View Resume</a
+              ><!-- Adcionar link interno -->
+            </div>
+          </div>
+          <div class="text-center">
+            <blockquote>“Don't comment bad code - rewrite it.”</blockquote>
+            <cite>Brian Kernighan</cite>
+          </div>
+        </section>
+      </div>
+      <div class="box-project">
       <section id="Article" classe="Article">
-        <h2>Projects</h2>
+       
+        <div class="about-h2">
+          <h2>Projects</h2>
+          <div class="flex-container">
         <article>
           <h3>Projects 1</h3>
           <p>
@@ -67,7 +82,9 @@
             width="400"
           />
         </article>
-        <article>
+       </div>
+        <div class="flex-container"> 
+        <article >
           <h3>Projects 2</h3>
           <p>
             Formulário: Lorem ipsum dolor sit amet consectetur, adipisicing
@@ -83,8 +100,11 @@
             alt="Página inicial do Formulário"
             width="400"
           />
-        </article>
-        <article>
+         </article>
+         </div>
+         <div class="flex-container"> 
+  
+         <article>
           <h3>Projects 3</h3>
           <p>
             Tabela: Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -97,16 +117,23 @@
           <a href="https://danielepsilva.github.io/Tables/">View projects</a>
           <img src="./img/prevtab.png" alt="Tabela html" width="400" />
         </article>
-      </section>
-      <section id="contact" classe="contact">
+        </div>
+       </section>
+       <section id="contact" classe="contact">
         <p>
           is simply dummy text of the printing and typesetting industry. Lorem
           Ipsum has been the industry's standard dummy text ever since the
           1500s.
         </p>
+       </div>
+       <div class="page-project" class="button-view"> 
         <a href="./projectos.html"> Ver mais Projetos</a>
+      
+      </div>
         <a href="mailto:danielepereira9503@gmail.com">let's talk</a>
+      </div>
       </section>
+
     </main>
     <footer>
       <ul>
