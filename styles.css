@@ -46,6 +46,10 @@ h2 {
 p {
   color: white;
 }
+a {
+  color: white;
+  text-decoration: none;
+}
 
 blockquote {
   color: white;
@@ -69,14 +73,14 @@ cite {
 }
 .button-view {
   text-decoration: none;
+  color: white;
   text-align: center;
   font-weight: bold;
-  color: white;
-  display: inline-block;
   padding: 10px;
-  border-radius: 30px;
-  border: 2px solid rgb(238, 105, 49);
+  text-align: center;
   padding-bottom: 10px;
+  border: 2px solid rgb(213, 73, 22);
+  border-radius: 30px;
 }
 .img-about {
   display: flow-root;
@@ -87,14 +91,27 @@ cite {
   opacity: 0.8;
   border: 2px orange;
 }
-
+.container-sec-proj {
+  justify-content: left;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container-proj {
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  height: 100%;
+  padding: 30px;
+  margin: 20px;
+  border: 1px solid rgb(243, 89, 6);
+  border-radius: 15px;
+}
 .flex-container {
   height: 100%;
   padding: 20px;
   margin: 20px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .flex-container-about {
@@ -137,7 +154,7 @@ cite {
 
 .box-project {
   width: 100%;
-  height: 100%;
+  height: 850px
   border: 2px solid rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
 }
@@ -147,6 +164,8 @@ footer {
   border: 2px solid black;
   padding: 20px;
   display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 .page-project {
@@ -154,6 +173,25 @@ footer {
   border: 2px solid white;
   padding: 20px;
   width: 100%;
-  height: 250px;
+  height: 350px;
   text-align: center;
+}
+.container-contact {
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  border: orangered;
+  text-align: center;
+}
+.button-source {
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 30px;
+  border: 2px solid rgb(238, 105, 49);
+  padding-bottom: 10px;
 }
