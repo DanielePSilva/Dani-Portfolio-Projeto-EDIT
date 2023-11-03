@@ -186,7 +186,8 @@ cite {
 
 @media (max-width: 1024px) {
   .img-about {
-    width: 95%;
+    width: 200px;
+    height: 200px;
   }
 }
 .container-sec-proj {
